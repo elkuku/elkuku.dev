@@ -19,11 +19,11 @@ It links to the sites hosted on the same Plesk server:
 
 ## Local preview
 
-```bash
-python3 -m http.server 8765
-```
+Open `index.html` in a browser, for example:
 
-Then open http://localhost:8765.
+```bash
+xdg-open index.html
+```
 
 ## Deployment
 
